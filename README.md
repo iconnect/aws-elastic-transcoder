@@ -1,4 +1,4 @@
 aws-elastic-transcoder
 ======================
 
-extension to the Haskell AWS repository to interface to the AWS Elastic Transcoder service
+Extension to the Haskell AWS suite to include the AWS Elastic Transcoder API
