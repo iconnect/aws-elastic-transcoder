@@ -1,4 +1,4 @@
-## aws-elastic-transcode
+## aws-elastic-transcoder
 
 aws-elastic-transcode is an extension to the Haskell AWS suite to
 cover the AWS Elastic Transcoder API.
