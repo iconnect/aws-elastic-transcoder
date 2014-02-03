@@ -1,5 +1,5 @@
 Name:                aws-elastic-transcoder
-Version:             0.2.0.0
+Version:             0.2.0.1
 Synopsis:            Haskell suite for the Elastic Transcoder service
 Description:         This suite extends the aws suite for the Amazon Web Services (AWS) to interface the AWS Elastic Transcoder service for transcoding video.
 Homepage:            http://github.com/iconnect/aws-elastic-transcoder
@@ -32,6 +32,10 @@ Library
         Aws.ElasticTranscoder.Commands
         Aws.ElasticTranscoder.Commands.CreateJob
         Aws.ElasticTranscoder.Commands.DeleteJob
+        Aws.ElasticTranscoder.Commands.CreatePreset
+        Aws.ElasticTranscoder.Commands.GetPreset
+        Aws.ElasticTranscoder.Commands.ListPresets
+        Aws.ElasticTranscoder.Commands.DeletePreset
         Aws.ElasticTranscoder.Commands.GetJob
         Aws.ElasticTranscoder.Commands.ListJobsByPipeline
         Aws.ElasticTranscoder.Commands.ListJobsByStatus
